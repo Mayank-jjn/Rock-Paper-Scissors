@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: #FFF1E6;
+}
+
+h1 {
+    background-color: #6C4AB6;
+    color: #ffffff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0C3FC; /* soft violet base */
+    transition: transform 0.2s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #53B8BB;
+    transform: scale(1.05);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.score_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    color: #2D033B;
+}
+
+#user, #computer {
+    font-size: 4rem;
+}
+
+.msg_container {
+    margin-top: 5rem;
+    font-weight: 500;
+}
+
+#msg {
+    background-color: #F86F03;
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
